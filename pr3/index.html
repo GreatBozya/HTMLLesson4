@@ -1,233 +1,234 @@
-<html lang="ru"><head>
-	<meta charset="UTF-8">
-	<title>Windows 8</title>
-	<style>
-		body {
-			margin: 0;
-			font-family: sans-serif;
-			color: #dedede;
-		}
-		.wrapper {
-			height: calc(100vh - 100px);
-			padding: 50px 0 50px 50px;
-			background-color: #222;
-		}
-		header {
-			font-size: 0;
-			margin: 0 50px 50px 0;
-		}
-		h1, h3 {
-			display: inline-block;
-			width: 50%;
-			vertical-align: top;
-			font-weight: 400;
-			margin: 0;
-		}
-		h1 {
-			font-size: 3rem;
-		}
-		h3 {
-			font-size: 2rem;
-			text-align: right;
-		}
-		main {
-			height: 590px;
-			font-size: 0;
-			overflow-x: auto;
-		}
-		.scroll {
-			width: 2950px;
-			padding-right: 50px;
-		}
-		.column {
-			height: 540px;
-			width: 210px;
-			margin-right: 10px;
-			display: inline-block;
-			vertical-align: top;
-		}
-		.group {
-			display: inline-block;
-			vertical-align: top;
-			margin-right: 40px;
-		}
-		.group_1 *:not(.column) {
-			background: red;
-		}
-		.group_2 *:not(.column) {
-			background: orange;
-		}
-		.group_3 *:not(.column) {
-			background: yellow;
-		}
-		.group_4 *:not(.column) {
-			background: green;
-		}
-		.group_5 *:not(.column) {
-			background: cyan;
-		}
-		.group_6 *:not(.column) {
-			background: blue;
-		}
-		.group_7 *:not(.column) {
-			background: purple;
-		}
-		.group_8 *:not(.column) {
-			background: brown;
-		}
-		.group_9 *:not(.column) {
-			background: gray;
-		}
-		.small {
-			width: 100px;
-			height: 100px;
-			background: #000;
-			margin-bottom: 10px;
-			margin-right: 10px;
-			display: inline-block;
-			vertical-align: top;
-		}
-		.middle {
-			width: 210px;
-			height: 100px;
-			margin-bottom: 10px;
-		}
-		.big {
-			width: 210px;
-			height: 210px;
-			margin-bottom: 10px;
-		}
-		.mr0 {
-			margin-right: 0;
-		}
-		.mb0 {
-			margin-bottom: 0;
-		}
-	</style>
-</head>
-<body>
-	<div class="wrapper">
-		<header>
-			<h1>Пуск</h1>
-			<h3>User</h3>
-		</header>
-		<main>
-			<div class="scroll">
-				<div class="group group_1">
-					<div class="column">
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="big mb0"></div>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Windows 8</title>
+		<style>
+			body {
+				margin: 0;
+				color: #c4c4c4;
+			}
+			header {
+				font-size: 0;
+				margin: 0 50px 50px 0;
+				display: flex;
+				align-items: center;
+			}
+			h1, h3 {
+				width: 50%;
+				vertical-align: top;
+			}
+			main {
+				height: 600px;
+				font-size: 0;
+				overflow-x: auto;
+			}
+			h1 {
+				font-size: 3rem;
+			}
+			h3 {
+				font-size: 2rem;
+				text-align: right;
+			}
+			.scroll {
+				width: 3000px;
+				padding-right: 50px;
+				display: flex;
+				align-items: center;
+			}
+			.group {
+				display: flex;
+				align-items: center;
+				margin-right: 20px;
+			}
+			.column {
+				height: 540px;
+				width: 210px;
+				margin-right: 10px;
+			}
+			.wrapper {
+				height: calc(100vh - 100px);
+				padding: 50px 0 50px 50px;
+				background-color: rgb(96, 81, 124);
+			}
+			.small {
+				width: 100px;
+				height: 100px;
+				margin-bottom: 10px;
+				margin-right: 10px;
+				display: inline-block;
+			}
+			.middle {
+				width: 210px;
+				height: 100px;
+				margin-bottom: 10px;
+			}
+			.big {
+				width: 210px;
+				height: 210px;
+				margin-bottom: 10px;
+			}
+			.mr {
+				margin-right: 0;
+			}
+			.mb {
+				margin-bottom: 0;
+			}
+			.group_1 *:not(.column) {
+				background: red;
+			}
+			.group_2 *:not(.column) {
+				background: orange;
+			}
+			.group_3 *:not(.column) {
+				background: yellow;
+			}
+			.group_4 *:not(.column) {
+				background: green;
+			}
+			.group_5 *:not(.column) {
+				background: cyan;
+			}
+			.group_6 *:not(.column) {
+				background: blue;
+			}
+			.group_7 *:not(.column) {
+				background: purple;
+			}
+			.group_8 *:not(.column) {
+				background: brown;
+			}
+			.group_9 *:not(.column) {
+				background: gray;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1>Швиндовс</h1>
+				<h3>User</h3>
+			</header>
+			<main>
+				<div class="scroll">
+					<div class="group group_1">
+						<div class="column">
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="big mb"></div>
+						</div>
+					</div>
+					<div class="group group_2">
+						<div class="column">
+							<div class="middle"></div>
+							<div class="middle"></div>
+							<div class="middle"></div>
+							<div class="middle"></div>
+							<div class="middle"></div>
+						</div>
+						<div class="column">
+							<div class="big"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+						</div>
+					</div>
+					<div class="group group_3">
+						<div class="column">
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+						</div>
+					</div>
+					<div class="group group_4">
+						<div class="column">
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="big"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small mb"></div>
+							<div class="small mr mb"></div>
+						</div>
+					</div>
+					<div class="group group_5">
+						<div class="column">
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="big mb"></div>
+						</div>
+						<div class="column">
+							<div class="middle"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+						</div>
+					</div>
+					<div class="group group_6">
+						<div class="column">
+							<div class="middle"></div>
+							<div class="middle"></div>
+							<div class="middle"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="middle mb"></div>
+						</div>
+					</div>
+					<div class="group group_7">
+						<div class="column">
+							<div class="middle"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="middle"></div>
+							<div class="small mb"></div>
+							<div class="small mr mb"></div>
+						</div>
+						<div class="column">
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+						</div>
+					</div>
+					<div class="group group_8">
+						<div class="column">
+							<div class="big"></div>
+							<div class="big"></div>
+							<div class="middle mb"></div>
+						</div>
+					</div>
+					<div class="group group_9 mr">
+						<div class="column mr">
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="small"></div>
+							<div class="small mr"></div>
+							<div class="middle"></div>
+						</div>
 					</div>
 				</div>
-				<div class="group group_2">
-					<div class="column">
-						<div class="middle"></div>
-                        <div class="middle"></div>
-                        <div class="middle"></div>
-                        <div class="middle"></div>
-                        <div class="middle"></div>
-					</div>
-					<div class="column">
-						<div class="big"></div>
-                        <div class="small"></div>
-						<div class="small mr0"></div>
-                        <div class="small"></div>
-					</div>
-				</div>
-				<div class="group group_3">
-					<div class="column">
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-					</div>
-				</div>
-				<div class="group group_4">
-					<div class="column">
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="big"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small mb0"></div>
-						<div class="small mr0 mb0"></div>
-					</div>
-				</div>
-				<div class="group group_5">
-					<div class="column">
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="big mb0"></div>
-					</div>
-					<div class="column">
-						<div class="middle"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-					</div>
-				</div>
-				<div class="group group_6">
-					<div class="column">
-						<div class="middle"></div>
-						<div class="middle"></div>
-						<div class="middle"></div>
-                        <div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="middle mb0"></div>
-					</div>
-				</div>
-				<div class="group group_7">
-					<div class="column">
-						<div class="middle"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="middle"></div>
-						<div class="small mb0"></div>
-						<div class="small mr0 mb0"></div>
-					</div>
-					<div class="column">
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-					</div>
-				</div>
-				<div class="group group_8">
-					<div class="column">
-						<div class="middle"></div>
-						<div class="middle"></div>
-						<div class="big"></div>
-						<div class="middle mb0"></div>
-					</div>
-				</div>
-				<div class="group group_9 mr0">
-					<div class="column mr0">
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-						<div class="small"></div>
-						<div class="small mr0"></div>
-					</div>
-				</div>
-			</div>
-		</main>
-	</div>
-
-</body></html>
+			</main>
+		</div>
+	</body>
+</html>
